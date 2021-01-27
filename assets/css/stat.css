@@ -1,0 +1,126 @@
+  	table
+  	{
+  	width : auto;
+  	margin :10px;
+  	padding:10px;
+  	color :#666;
+  	background-color : #efefef;
+  	border-radius : 5px;
+  	border: 1px solid #124860;
+  	}
+  
+  	table caption
+  	{
+  	font-size: 1.5em;
+  	font-weight:700;
+  	font-variant : small-caps;
+  	color :#666;
+  	}
+  
+  	table tr:nth-child(even)
+  	{
+  	background-color :#CCC;
+  	}
+  
+  	table tr:nth-child(odd)
+  	{
+  	background-color :#FFF;
+  	}
+  	
+  	#tableauhorizontal
+  	{
+  	table th:nth-child(even)
+  	{
+  	background-color :#CCC;
+  	}
+  
+  	table th:nth-child(odd)
+  	{
+  	background-color :#FFF;
+  	}
+  	}
+  
+  	table td
+  	{
+  	padding :5px 10px;
+  	text-align :right;
+  	}
+  	
+  	table th
+  	{
+  	padding :5px 10px;
+  	text-align :right;
+  	}
+  
+  	#containert
+  	{
+  	width: 840px; 
+  	height: 500px;
+  	}
+  
+  	#containera
+  	{
+  	float: left;
+  	width: 47%; 
+  	height: 80%;
+  	margin-left: 10px;
+  	}
+  
+  	#containerville
+  	{ 
+  	width: 47%; 
+  	height: 350px;
+  	margin-left: 10px;
+  	bottom: 40px; left: 5px;
+  	position: absolute;
+  	}
+  	
+  	#containerb
+	{
+  	width: 47%; 
+  	height: 80%;
+  	margin-left : 415px;
+  	position: relative;
+  	}
+  
+	#piedpage
+	{
+	position: absolute;
+	bottom: 5px; left: 5px;
+	
+   	}
+   	
+   	#txUrssaf
+   	{
+   	position: absolute;
+	bottom: 30px; left: 5px;
+   	}
+   
+	#container
+   {
+   	position: absolute;
+	bottom: 30px; left: 18px;
+	width: 1225px;
+	padding-right : 15px;
+	height: 400px; 
+	margin: 0 auto;
+   }
+   
+   select
+   {
+   	width : auto;
+   	height : 25px;
+   	padding-left :10px
+   	font-size : 1em;
+   	-webkit-border-radius :5px;
+   	-moz-border-radius: 5px;
+   	border-radius:5px;
+   	border : 1px solid;
+   	}
+   	
+   
+  	
+  	
+  	
+  	
+  	

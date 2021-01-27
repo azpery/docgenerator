@@ -1,0 +1,83 @@
+  	table
+  	{
+  	width:auto;
+  	margin :10px;
+  	padding:10px;
+  	color :#666;
+  	background-color : #efefef;
+  	border-radius : 5px;
+  	border: 1px solid #124860;
+  	}
+  
+  	table caption
+  	{
+  	font-size: 1.5em;
+  	font-weight:700;
+  	font-variant : small-caps;
+  	color :#666;
+  	}
+  
+  	table tr:nth-child(even)
+  	{
+  	background-color :#CCC;
+  	}
+  
+  	table tr:nth-child(odd)
+  	{
+  	background-color :#FFF;
+  	}
+  
+  	table td
+  	{
+  	padding :5px 10px;
+  	text-align :right;
+  	}
+  	table th
+  	{
+  	padding :5px 10px;
+  	text-align : left;
+  	}
+  
+  	#containert
+  	{
+  	width: 80%; 
+  	height: 500px;
+  	}
+  
+  	#containera
+  	{
+  	float: left;
+  	width: 47%; 
+  	height: 80%;
+  	/*margin-left: 8%;*/
+  	}
+  
+  	#containerb
+	{
+  	width: 47%; 
+  	height: 80%;
+  	margin-left : 415px;
+  	position: relative;
+  	}
+  
+	#piedpage
+	{
+	position: absolute;
+	bottom: 5px; left: 5px;
+   	}
+   	
+   	#txUrssaf
+   	{
+   	position: absolute;
+	bottom: 5px; left: 10px;
+   	}
+   
+	#container
+   {
+   	position: absolute;
+	bottom: 30px; left: 18px;
+	width: 1225px;
+	padding-right : 15px;
+	height: 450px; 
+	margin: 0 auto;
+   }
