@@ -636,5 +636,57 @@
 
 <script src="../../js/jquery.min.js" type="text/javascript"></script>
 <script src="devis.js" type="text/javascript"></script>
+<script>
+	jsonToDevis({
+    praticien: {
+        indentification: true,
+        identifiant: 'robin',
+        structure: 'test',
+        numStructure: 3
+    },
+    dates: {
+        date: 'okok',
+        validite: 'string | number | boolean'
+    },
+    patient: {
+        civilite: 'string',
+        nom: 'string',
+        prenom: 'string',
+        naissance: 'string | number | boolean',
+        secu: 'string | number | boolean',
+        adresse: 'string | number | boolean',
+        telephone:' string | number | boolean'
+    },
+    description: {
+        texteDescription: 'string | number | boolean',
+        disposition: 'string',
+        texteDisposition: 'string | number | boolean'
+    },
+    fabrication: {
+        lieuFabrication: 'string',
+        paysFabrication: 'number | boolean | string'
+    },
+    sousTraitance: {
+        sousTraitance: 'strin',
+        lieuSousTraitance: 'string',
+        paysSousTraitance: 'string | number | boolean'
+    },
+    actes: [
+        {
+            localisation: 'string | number | boolean',
+            description: 'string',
+            materiaux: 'string',
+            cotation: 'string',
+            honoraire: 3,
+            A: 3, 
+            B2: 3,
+            B1: 3,
+            C: 3,
+            D: 3,
+            E: 3,
+        }
+    ]
+})
+</script>
 </body>
 </html>

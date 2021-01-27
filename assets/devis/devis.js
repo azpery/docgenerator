@@ -245,7 +245,7 @@ function jsonToDevis(devisJSON) {
 
 $(document).ready(function() {
     $('#devis-print').show();
-    $('.devisPage').hide();
+    // $('.devisPage').hide();
 });
 
 
